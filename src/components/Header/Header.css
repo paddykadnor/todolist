@@ -1,0 +1,12 @@
+.header
+{
+    background-color: #336FC2;
+    width:100%;
+    position: sticky;
+    height: 60px;
+}
+
+.header img{
+    width:60px;
+    height: 60px;
+}

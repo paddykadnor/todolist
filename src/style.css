@@ -1,0 +1,121 @@
+body{
+  font-family: 'roboto';
+  margin: 0;
+  padding: 0;
+}
+  .app
+    {
+      font-family: 'Roboto'
+    }
+
+    .todolist
+    {
+      margin: 20px;
+    }
+
+
+
+    .btn
+    {
+      background-color:#128496;
+      color: #ffffff;
+      border-radius: 2px;
+      padding: 10px;
+      border: none;
+      font-weight: bold;
+      font-size: 14px;
+      cursor: pointer;
+      margin-left :6px;
+    }
+
+    .remove
+    {
+      background-color:#C82233;
+    }
+
+
+.card
+{
+    background-color: honeydew;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.card-body
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card-body div:nth-child(1)
+{
+    width:4%;
+    padding: 16px;
+}
+
+.card-body div:nth-child(3),.card-body div:nth-child(4)
+{
+    padding: 16px 6px;
+}
+
+.card-body div:nth-child(2)
+{
+    width:80%
+}
+
+.card-body button{
+    align-content: flex-end;
+    position: absolute;
+    right: 6px;
+    bottom:0px;
+}
+
+.new-card{
+    color: hotpink;
+    margin: 10px 0px 10px 6px;
+    cursor: pointer;
+    background: none;
+}
+
+.card-body img{
+    widows: 20px;height: 20px;
+}
+
+.form-group
+{
+  display: flex;
+  margin-left: 36px;
+}
+
+.form-control
+{
+  display: block;
+  width: 600px;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-right: 20px;
+
+}
+.strike
+{
+  text-decoration:line-through;
+}
+
+
+    
+
+  
+
+
+
+
+   

@@ -1,0 +1,47 @@
+.category
+{
+    margin-top: 60px;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-content: flex-start;
+    width:100%;
+}
+
+.category-name
+{
+    display: inline-block;
+    background-color: #E5EFF5;
+    text-align: left;
+    color: #162B4D;
+    padding: 10px;
+    font-weight: bold;
+    margin-right: 20px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    width:400px;
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.category-list
+{
+    display: block;
+    padding: 10px 10px 10px 0px;
+}
+
+.form-group
+{
+    margin-left: 0px;
+}
+
+.d-block
+{
+    display: block;
+}
+.d-none
+{
+    display: none;
+}
